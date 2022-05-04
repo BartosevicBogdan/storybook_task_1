@@ -6,5 +6,6 @@ export const Button=styled.button`
     border: none;
     color: ${props => props.style.color};
     cursor: pointer;
+    margin: 0.125rem;
     padding: 1rem;
 `
