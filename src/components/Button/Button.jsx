@@ -19,7 +19,7 @@ const theme={
 
 const Button = ({type, color, children}) => {
   return (
-    <S.Button style={theme[color]} type={type}>{children}</S.Button>
+    <S.Button style={theme[color]} type={type} onClick={()=>{window.alert(type)}}>{children}</S.Button>
   )
 }
 
